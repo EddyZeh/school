@@ -1,0 +1,40 @@
+/* app/dashboard/dashboard.module.css */
+
+.container {
+    max-width: 48rem; /* Equivalent to max-w-3xl (768px) */
+    margin: 2.5rem auto; /* Equivalent to mt-10 (40px) and mx-auto */
+    padding: 1.5rem; /* Equivalent to p-6 (24px) */
+    background-color: #ffffff; /* bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* shadow */
+    border-radius: 0.5rem; /* rounded */
+}
+
+.heading {
+    font-size: 1.5rem; /* Equivalent to text-2xl (24px) */
+    font-weight: 700; /* font-bold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 (16px) */
+    color: #333;
+}
+
+.detail {
+    margin-bottom: 0.75rem; /* Spacing between detail lines */
+    line-height: 1.5;
+    color: #333;
+}
+
+.detail strong {
+    color: #000;
+    font-weight: 600;
+}
+
+.errorMessage {
+    color: #dc2626; /* text-red-600 */
+    text-align: center; /* text-center */
+    margin-top: 2.5rem; /* mt-10 */
+}
+
+.loadingMessage {
+    text-align: center; /* text-center */
+    margin-top: 2.5rem; /* mt-10 */
+    color: #555; /* A neutral color for loading text */
+}
